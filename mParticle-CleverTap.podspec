@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
     s.name             = "mParticle-CleverTap"
-    s.version          = "7.7.3"
+    s.version          = "7.8.5"
     s.summary          = "CleverTap integration for mParticle"
 
     s.description      = <<-DESC
@@ -15,11 +15,11 @@ Pod::Spec.new do |s|
 
     s.ios.deployment_target = "9.0"
     s.ios.source_files      = 'mParticle-CleverTap/*.{h,m}'
-    s.ios.dependency 'mParticle-Apple-SDK', '~> 7.7.0'
+    s.ios.dependency 'mParticle-Apple-SDK', '~> 7.8.0'
     s.ios.dependency 'CleverTap-iOS-SDK', '~> 3.3.0'
 
     s.tvos.deployment_target = "9.0"
     s.tvos.source_files      = 'mParticle-CleverTap/*.{h,m}'
-    s.tvos.dependency 'mParticle-Apple-SDK/mParticle', '~> 7.7.0'
+    s.tvos.dependency 'mParticle-Apple-SDK/mParticle', '~> 7.8.0'
     s.tvos.dependency 'CleverTap-iOS-SDK', '~> 3.3.0'
 end

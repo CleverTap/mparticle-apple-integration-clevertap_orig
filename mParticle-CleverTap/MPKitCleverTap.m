@@ -169,10 +169,6 @@ NSString *const kCTChargedID = @"Charged ID";
     return [self execStatus:MPKitReturnCodeSuccess];
 }
 
-- (nonnull MPKitExecStatus *)setUserIdentity:(nullable NSString *)identityString identityType:(MPUserIdentity)identityType {
-    return [self execStatus:MPKitReturnCodeSuccess];
-}
-
 - (nonnull MPKitExecStatus *)onLoginComplete:(FilteredMParticleUser *)user request:(FilteredMPIdentityApiRequest *)request {
     return [self updateUser:user request:request isLogin:YES];
 }
